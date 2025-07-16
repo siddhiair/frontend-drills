@@ -9,6 +9,7 @@ export const challenges: Challenge[] = [
       "Create a simple counter component that increases or decreases the count when clicking buttons.",
     slug: "create-a-counter-component",
     component: React.lazy(() => import("./CounterComponent")),
+    loadCode: () => import("./CounterComponent?raw"),
   },
   {
     id: 2,
@@ -17,5 +18,6 @@ export const challenges: Challenge[] = [
       "Create a reusable toggle switch component in React that allows users to switch between light and dark themes.",
     slug: "implement-a-toggle-switch",
     component: React.lazy(() => import("./CounterComponent")),
+    loadCode: () => import("./CounterComponent?raw"),
   },
 ];
