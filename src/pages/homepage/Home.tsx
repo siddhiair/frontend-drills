@@ -5,7 +5,7 @@ import { Container } from "../../components/common";
 const Home = () => {
   return (
     <Container>
-      <div className="sm:flex -mx-4">
+      <div className="flex flex-col sm:flex-row flex-wrap gap-y-8 -mx-4">
         {challenges.map((item) => (
           <Card key={item.slug} result={item} />
         ))}
