@@ -15,9 +15,9 @@ export const challenges: Challenge[] = [
     id: 2,
     title: "Implement a Toggle Switch",
     description:
-      "Create a reusable toggle switch component in React that allows users to switch between light and dark themes.",
+      "Create a reusable toggle switch component in React that allows users to switch between light and dark themes for a div with content.",
     slug: "implement-a-toggle-switch",
-    component: React.lazy(() => import("./CounterComponent")),
-    loadCode: () => import("./CounterComponent?raw"),
+    component: React.lazy(() => import("./ToggleSwitch")),
+    loadCode: () => import("./ToggleSwitch?raw"),
   },
 ];
