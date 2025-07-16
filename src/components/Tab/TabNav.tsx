@@ -15,7 +15,7 @@ const TabNav = ({
     <ul className="tabs flex gap-x-4 border-b border-gray-800">
       {tabs.map((tab) => {
         return (
-          <li>
+          <li key={tab.label}>
             <button
               type="button"
               className={`${tabStyle} ${
