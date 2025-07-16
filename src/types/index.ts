@@ -6,4 +6,19 @@ export type Challenge = {
   description: string;
   slug: string;
   component: React.LazyExoticComponent<() => JSX.Element>;
+  loadCode: () => Promise<{ default: string }>;
+};
+
+export type TabsProps = {
+  id: string;
+  label: string;
+  content: React.ReactNode;
+};
+
+export type AlertVariations = "success" | "error" | "info";
+
+export type AlertProps = {
+  content: string;
+  showAlert: boolean;
+  variation: AlertVariations;
 };
