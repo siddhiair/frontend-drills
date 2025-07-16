@@ -147,7 +147,7 @@ const ToDoList = () => {
         <div className="text-right">
           <button
             type="button"
-            className="bg-transparent border-0 text-xs font-bold text-blue-600 py-2 cursor-pointer"
+            className="bg-transparent border-0 text-xs font-bold text-violet-700 py-2 cursor-pointer"
             onClick={deleteCompletedTasks}
           >
             Delete Completed
