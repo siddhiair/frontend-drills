@@ -20,4 +20,13 @@ export const challenges: Challenge[] = [
     component: React.lazy(() => import("./ToggleSwitch")),
     loadCode: () => import("./ToggleSwitch?raw"),
   },
+  {
+    id: 3,
+    title: "Build a To-Do List",
+    description:
+      "Create a to-do list component where users can add, remove, and mark items as complete.",
+    slug: "build-a-todo-list",
+    component: React.lazy(() => import("./ToDoList")),
+    loadCode: () => import("./ToDoList?raw"),
+  },
 ];
