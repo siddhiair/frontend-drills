@@ -29,4 +29,13 @@ export const challenges: Challenge[] = [
     component: React.lazy(() => import("./ToDoList")),
     loadCode: () => import("./ToDoList?raw"),
   },
+  {
+    id: 4,
+    title: "Fetch Data from an API",
+    description:
+      "Create a component fetching data from an API and displaying it in a list.",
+    slug: "fetch-data-from-api",
+    component: React.lazy(() => import("./FetchAPIData")),
+    loadCode: () => import("./FetchAPIData?raw"),
+  },
 ];
