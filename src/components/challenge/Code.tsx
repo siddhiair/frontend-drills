@@ -54,7 +54,7 @@ const Code = ({ loadCode }: CodeProps) => {
         showAlert={alert.showAlert}
       />
       <div
-        className="bg-black text-white relative py-7 px-4 code-block overflow-x-auto lg:text-sm lg:p-6"
+        className="bg-black text-white relative py-7 px-4 code-block overflow-x-auto text-xs md:text-sm lg:p-6"
         id="code"
       >
         <pre>{code}</pre>
