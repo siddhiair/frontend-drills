@@ -1,3 +1,11 @@
+// NOTE: This code is written for a single file challenge.
+// In a real-world application, it should be refactored for better separation of concerns:
+// - Move types to a `types` file
+// - Extract `CharacterCard` into its own component
+// - Move fetch logic into a custom hook or separate service
+// - Improve error handling and loading states
+// This format is intentionally flat to meet the constraints of a coding round.
+
 import { useEffect, useState } from "react";
 
 const API_URL = "https://potterapi-fedeperin.vercel.app/en/characters";
