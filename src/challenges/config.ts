@@ -56,4 +56,13 @@ export const challenges: Challenge[] = [
     component: React.lazy(() => import("./DropdownMenu")),
     loadCode: () => import("./DropdownMenu?raw"),
   },
+  {
+    id: 7,
+    title: "Implement a Tabs component",
+    description:
+      "Build a React Tabs component that displays a set of tab labels. Clicking a tab should activate it and display its corresponding content. Only one tab's content should be visible at a time.",
+    slug: "implement-tabs-component",
+    component: React.lazy(() => import("./Tab")),
+    loadCode: () => import("./Tab?raw"),
+  },
 ];
