@@ -47,4 +47,13 @@ export const challenges: Challenge[] = [
     component: React.lazy(() => import("./SearchBarFilter")),
     loadCode: () => import("./SearchBarFilter?raw"),
   },
+  {
+    id: 6,
+    title: "Build a Dropdown Menu",
+    description:
+      "Build a React component with a button that toggles a dropdown menu. When open, display a list of options. Let the user select an option to update the button label. Close the menu on outside click or Escape key.",
+    slug: "build-a-dropdown-menu",
+    component: React.lazy(() => import("./DropdownMenu")),
+    loadCode: () => import("./DropdownMenu?raw"),
+  },
 ];
