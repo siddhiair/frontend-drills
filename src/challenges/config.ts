@@ -74,4 +74,13 @@ export const challenges: Challenge[] = [
     component: React.lazy(() => import("./FetchAPIInfiniteScroll")),
     loadCode: () => import("./FetchAPIInfiniteScroll?raw"),
   },
+  {
+    id: 9,
+    title: "Create a Modal Component",
+    description:
+      "Build a reusable modal component that can be opened and closed via button click. Ensure proper accessibility with keyboard navigation, focus trapping, and backdrop click-to-close behavior. Support animations and customizable content.",
+    slug: "create-modal-component",
+    component: React.lazy(() => import("./Modal")),
+    loadCode: () => import("./Modal?raw"),
+  },
 ];
