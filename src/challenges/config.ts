@@ -31,7 +31,7 @@ export const challenges: Challenge[] = [
   },
   {
     id: 4,
-    title: "Fetch Data from an API",
+    title: "Fetch Data from an API (Load More on Button Click)",
     description:
       "Build a component that fetches data from a remote API and displays it in a list. Handle loading, errors, and pagination using a 'Load More' button.",
     slug: "fetch-data-from-api",
@@ -64,5 +64,14 @@ export const challenges: Challenge[] = [
     slug: "implement-tabs-component",
     component: React.lazy(() => import("./Tab")),
     loadCode: () => import("./Tab?raw"),
+  },
+  {
+    id: 8,
+    title: "Fetch Data from an API (Load More on Scroll)",
+    description:
+      "Build a component that fetches data from a remote API and displays it in a list. Implement infinite scroll so that more data is automatically loaded as the user scrolls near the bottom of the list.",
+    slug: "fetch-data-infinite-scroll",
+    component: React.lazy(() => import("./FetchAPIInfiniteScroll")),
+    loadCode: () => import("./FetchAPIInfiniteScroll?raw"),
   },
 ];
